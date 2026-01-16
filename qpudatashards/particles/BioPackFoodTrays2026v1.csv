@@ -1,0 +1,6 @@
+nodeid,facility,region,product_type,M_baseline_kg,M_biopack_kg,trays_per_day,dt_days,mass_avoided_kg,nodeimpactK,ecoimpactscore01
+PHX-FOOD-TRAY-01,CentralCommissary,Phoenix-AZ-US,TV-Dinner-Tray,0.030,0.022,50000,1,400.0,2.68e8,0.81
+PHX-PRISON-MRE-01,StatePrison,Phoenix-AZ-US,Prison-MRE-Tray,0.028,0.020,30000,1,240.0,1.61e8,0.79
+PHX-HOSP-CHILD-01,ChildrenHospital,Phoenix-AZ-US,Peds-Meal-Tray,0.025,0.018,10000,1,70.0,4.69e7,0.83
+PHX-QSR-CLAM-01,QSRHub,Phoenix-AZ-US,Clamshell-Box,0.018,0.013,80000,1,400.0,2.68e8,0.80
+PHX-GROCERY-PP-01,PackHouse,Phoenix-AZ-US,Pot-Pie-Tray,0.022,0.016,60000,1,360.0,2.41e8,0.82

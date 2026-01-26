@@ -1,0 +1,11 @@
+[package]
+name = "response_shard"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Response-level K/E/R + residual and invariants for MAR/biopack/circular hardware."
+
+[dependencies]
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }

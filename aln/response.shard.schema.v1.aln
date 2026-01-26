@@ -1,0 +1,13 @@
+aln particle response.shard.v1
+  field user_did string
+  field topic string
+
+  field knowledgefactor01 f64
+  field ecoimpact01 f64
+  field riskofharm01 f64
+
+  field vt_residual f64
+
+  field corridor_tags string[]
+  field evidencestrings string[]
+end

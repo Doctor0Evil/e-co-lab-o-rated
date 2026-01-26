@@ -1,0 +1,11 @@
+[package]
+name = "mar_pilot_sat_cell"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Phoenix-class SAT MAR pilot mirror using corridor and K/E/R grammar."
+
+[dependencies]
+serde = { workspace = true }
+thiserror = { workspace = true }
+response_shard = { path = "../response_shard" }

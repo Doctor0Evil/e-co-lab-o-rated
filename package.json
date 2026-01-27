@@ -1,0 +1,25 @@
+{
+  "name": "pha-bagasse-eco-engine",
+  "version": "1.0.0",
+  "description": "Eco-impact modeling engine for PHA and sugarcane bagasse trays with Phoenix-style scenarios.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/cli/eco-cli.js",
+    "test": "node dist/test/ecoScoreService.test.js && node dist/test/decayService.test.js && node dist/test/displacementService.test.js"
+  },
+  "keywords": [
+    "PHA",
+    "bagasse",
+    "LCA",
+    "eco-score",
+    "bioplastic",
+    "compostable trays"
+  ],
+  "author": "Home-Repo",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
